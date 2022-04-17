@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    display: flex;
+    height: 100vh;
+    .childOne{
+        width: 20%;
+        height: 100vh;
+        background-color: white;
+        padding: 10px;
+        font-size: 1.5em;
+        color: #4839eb;
+        img{
+            width: 20%;
+        }
+        
+    }
+    .childTwo{
+        width: 80%;
+        height: 100vh;
+        background-color: #f6f6f6;
+        .navbar{
+            width: 85%;
+            background-color: white;
+            margin: auto;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .linee{
+            color: gray;
+            font-size: 1.5em;
+        }
+        .line-text{
+            font-size: 1.5em;
+        }
+        .shopText{
+            width: 95%;
+            margin: auto;
+            // background-color: aqua;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .gear{
+                padding: 0.7em;
+                background-color: #4839eb;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+        .filterButtons{
+            width: 95%;
+            margin: auto;
+            // background-color: aqua;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .grip{
+                padding: 0.7em;
+                border-radius: 5px;
+                cursor: pointer;
+                background-color: #4839eb;
+            }
+        }
+        .range{
+            width: 25%;
+            margin-left: 1.5em;
+            background-color: white;
+            padding: 0.5em;
+            border-radius: 5px;
+            margin: 10px;
+            line-height: 30px;
+            .div{
+                
+            }
+        }
+    }
+}

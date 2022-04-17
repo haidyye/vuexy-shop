@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.parent .childOne {
+  width: 20%;
+  height: 100vh;
+  background-color: white;
+  padding: 10px;
+  font-size: 1.5em;
+  color: #4839eb;
+}
+
+.parent .childOne img {
+  width: 20%;
+}
+
+.parent .childTwo {
+  width: 80%;
+  height: 100vh;
+  background-color: #f6f6f6;
+}
+
+.parent .childTwo .navbar {
+  width: 85%;
+  background-color: white;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.parent .childTwo .linee {
+  color: gray;
+  font-size: 1.5em;
+}
+
+.parent .childTwo .line-text {
+  font-size: 1.5em;
+}
+
+.parent .childTwo .shopText {
+  width: 95%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.parent .childTwo .shopText .gear {
+  padding: 0.7em;
+  background-color: #4839eb;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.parent .childTwo .filterButtons {
+  width: 95%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.parent .childTwo .filterButtons .grip {
+  padding: 0.7em;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4839eb;
+}
+
+.parent .childTwo .range {
+  width: 25%;
+  margin-left: 1.5em;
+  background-color: white;
+  padding: 0.5em;
+  border-radius: 5px;
+  margin: 10px;
+  line-height: 30px;
+}
+/*# sourceMappingURL=main.css.map */
