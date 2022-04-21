@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -12,64 +13,157 @@
     <div class="parent">
         <div class="childOne">
           
-              <span><img src="imgs/logo.36f34a9f.svg" alt=""></span>
-              <span>Vuexy</span>
+             <div class="brand">
+                <span><img src="imgs/logo.36f34a9f.svg" alt=""></span>
+                <span class="brandName">Vuexy</span>
+             </div>
+              <div >
+                  <ul id="dropdown" class="dropdown">
+                   <li class="mother">
+                    <a>  <svg xmlns="http://www.w3.org/2000/svg" width="14px" height="14px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                     Dashboard</a>
+                     <span>
+                        <span class="notification"> 
+                            <span class="notifyNo"> 2
+                        </span>
+                       </span>
+                       <i class="arrow-up-down fa-solid fa-angle-right"></i>
+                    </span>
+                    
+                   </li>
+                     <ul id="dropdown-list" class="dropdown-list">
+                         <li>
+                             <a href=""> eCommerce</a>
+                         </li>
+                         <li><a href=""> Analytics</a></li>
+                     </ul>
+                  </ul>
+                  
+              </div>
+              <a  class="pages"> APPS & PAGES</a>
+              <div class="sidenav">
+                  <ul>
+                    <li> <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>  <a>  Email </a></li>
+                    <li> <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg> <a>  Chat</a></li>
+                    <li> <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-square"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg> <a> Todo</a></li>
+                    <li> <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg> <a> Calendar</a></li>
+                    <li> <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg> <a> Invoice </a></li>
+                    <li>  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>  <a>eCommerce</a> <i class="arrow-up-down fa-solid fa-angle-right"></i></li>
+                    <li> <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> <a>User</a></li>
+                    <li> <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>  <a> Pages </a></li>
+                  </ul>
+                  <a  class="pages"> User interface</a>
+                  <ul>
+                      <li><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-type"><polyline points="4 7 4 4 20 4 20 7"></polyline><line x1="9" y1="20" x2="15" y2="20"></line><line x1="12" y1="4" x2="12" y2="20"></line></svg> <a href=""> Typography</a> </li>
+                      <li><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-droplet"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg> <a href="">Colors</a></li>
+                      <li><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                      <a href="">feather</a>
+                    </li>
+                    
+                    <li> <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-credit-card"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg> <a>  Cards </a></li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-archive"><polyline points="21 8 21 21 3 21 3 8"></polyline><rect x="1" y="3" width="22" height="5"></rect><line x1="10" y1="12" x2="14" y2="12"></line></svg> Components </li>
+                    <li> <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg><a>  Extensions </a></li>
+                    <li>  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layout"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg> <a>Page layout</a></li>
+                    
+                  </ul>
 
+              </div>
         </div>
         <div class="childTwo">
             <div class="navbar">
-                <h1>hello</h1>
-            </div>
+               <ul class="list">
+                   <li> <a href=""><svg data-v-1134b199="" xmlns="http://www.w3.org/2000/svg" width="21px" height="21px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect data-v-1134b199="" x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line data-v-1134b199="" x1="16" y1="2" x2="16" y2="6"></line><line data-v-1134b199="" x1="8" y1="2" x2="8" y2="6"></line><line data-v-1134b199="" x1="3" y1="10" x2="21" y2="10"></line></svg></a></li>
+                   <li><a href=""><svg data-v-1134b199="" xmlns="http://www.w3.org/2000/svg" width="21px" height="21px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path data-v-1134b199="" d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></a></li>
+                   <li><a href=""><svg data-v-1134b199="" xmlns="http://www.w3.org/2000/svg" width="21px" height="21px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path data-v-1134b199="" d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline data-v-1134b199="" points="22,6 12,13 2,6"></polyline></svg></a></li>
+                   <li><a href=""><svg data-v-1134b199="" xmlns="http://www.w3.org/2000/svg" width="21px" height="21px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-square"><polyline data-v-1134b199="" points="9 11 12 14 22 4"></polyline><path data-v-1134b199="" d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg></a></li>
+                   <li><svg data-v-1134b199="" xmlns="http://www.w3.org/2000/svg" width="21px" height="21px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-warning feather feather-star"><polygon data-v-1134b199="" points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></li>
+               </ul>
+               <ul class="listTwo">
+                <li > <span class="moon" id="moon">  <svg xmlns="http://www.w3.org/2000/svg" width="21px" height="21px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> </span></li>
+                <li><svg data-v-0e8a7f4f="" xmlns="http://www.w3.org/2000/svg" width="21px" height="21px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle data-v-0e8a7f4f="" cx="11" cy="11" r="8"></circle><line data-v-0e8a7f4f="" x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></a></li>
+                <li><span class="rtl"><svg data-v-a58fee00="" xmlns="http://www.w3.org/2000/svg" width="21px" height="21px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-body feather feather-shopping-cart"><circle data-v-a58fee00="" cx="9" cy="21" r="1"></circle><circle data-v-a58fee00="" cx="20" cy="21" r="1"></circle><path data-v-a58fee00="" d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span></li>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="21px" height="21px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-body feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg></a></li>
+                <span> <h5>John Doe</h5>
+                    <span><h6>admin</h6></span>
+           </span>
+               <span class="elsora"><img src="imgs/22.png" alt=""></span>
+           </div>
+
+
+            </ul>
+          
             <span class="shopText">
                 <span>
                     <span class="line-text">Shop </span>
-                <span class="linee">|</span>
-                <i class="fa-solid fa-house"></i>
-                <i class="fa-solid fa-chevron-right"></i>
+                <!-- <span class="linee">|</span> -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                <i class="arrowIcon fa-solid fa-chevron-right"></i>
                 <span class="line-text2"> ECommerce</span>
-                <i class="fa-solid fa-chevron-right"></i>
+                <i class="arrowIcon fa-solid fa-chevron-right"></i>
                 <span>shop</span>
                 </span>
                <span class="gear"> <i class="fa-solid fa-gear"></i></span>
         </span>
         <br>
-        <div class="filterButtons">
-                 <span> Filters</span>
-                <span> 27 result found</span>
-                 <span class="btns">
-                    <span class="grip"> <i class="fa-solid fa-grip"></i></span>
-                    <span class="flex"><i class="fa-solid fa-list"></i></span>
-                 </span>
-        </div>
-        <div class="range">
-            <h3>Multi Range</h3>
-            <div><input type="radio" name="select" id="All">all</div>
-            <div><input type="radio" name="select" id="higherThan100"> <=100$</div>
-            <div><input type="radio" name="select" id="From10"> 10$-100$</div>
-            <div><input type="radio" name="select" id="From100"> 100$-500$</div>
-            <div><input type="radio" name="select" id="biggerThan"> >=500$</div>
-            <div><input type="range"> Price range</div>
-            <h3>Categories</h3>
-           <div> <input type="checkbox">Appliances</div>
-           <div> <input type="checkbox">Audio</div>
-           <div> <input type="checkbox">cameras & Camcorders</div>
-           <div> <input type="checkbox">Car Electronics & GPS</div>
-           <div> <input type="checkbox"> Cell Phones</div>
-           <div> <input type="checkbox">Health & Beauty</div>
-           <div> <input type="checkbox">Office & School Supplies</div>
-           <div> <input type="checkbox">TV</div>
-           <h3>Brands</h3>
-           <div> <input type="checkbox">Insignia</div>
-           <div> <input type="checkbox">Samsung</div>
-           <div> <input type="checkbox">Metra</div>
-           <div> <input type="checkbox">HP</div>
-           <div> <input type="checkbox"> Apple</div>
-           <div> <input type="checkbox">Sony</div>
-           <div> <input type="checkbox">Incipio</div>
-           <div> <input type="checkbox">KitchenAid</div>
-        </div>
-        </div>
+       <div class="container">
+        <div class="lolo">
+            <div id="filterList" class="filterList">
+                <!-- <a href=""> Filters</a> -->
+                <ul id="range" class="range">
+                    <li id="close" class="close"><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block d-xl-none feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></li>
+                    <li><input type="radio" name="select" id="All">all</li>
+            <li><input type="radio" name="select" id="higherThan100"> <=100$</li>
+            <li><input type="radio" name="select" id="From10"> 10$-100$</li>
+            <li><input type="radio" name="select" id="From100"> 100$-500$</li>
+            <li><input type="radio" name="select" id="biggerThan"> >=500$</li>
+            <li><input type="range"> Price range</li>
+            <li><input type="radio" name="select" id="All">all</li>
+            <li><input type="radio" name="select" id="higherThan100"> <=100$</li>
+            <li><input type="radio" name="select" id="From10"> 10$-100$</li>
+            <li><input type="radio" name="select" id="From100"> 100$-500$</li>
+            <li><input type="radio" name="select" id="biggerThan"> >=500$</li>
+            <li><input type="range"> Price range</li>   <li><input type="radio" name="select" id="All">all</li>
+            <li><input type="radio" name="select" id="higherThan100"> <=100$</li>
+            <li><input type="radio" name="select" id="From10"> 10$-100$</li>
+            <li><input type="radio" name="select" id="From100"> 100$-500$</li>
+            <li><input type="radio" name="select" id="biggerThan"> >=500$</li>
+            <li><input type="range"> Price range</li>
+                </ul>
+                </div>
+            <div class="hamed">
+              <div class="filterButtons">
+                <span id="menu" class="menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21px" height="21px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </span>
+                <span class="result"> 27 result found</span>
+              
+                <div>
+                    <button class="btn"> Featured </button>
+                    <span class="brdr">
+                        <span class=" btnBrdr"><svg data-v-15eba8c6="" xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid"><rect data-v-15eba8c6="" x="3" y="3" width="7" height="7"></rect><rect data-v-15eba8c6="" x="14" y="3" width="7" height="7"></rect><rect data-v-15eba8c6="" x="14" y="14" width="7" height="7"></rect><rect data-v-15eba8c6="" x="3" y="14" width="7" height="7"></rect></svg></span>
+                    <span class=""><svg data-v-15eba8c6="" xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-list"><line data-v-15eba8c6="" x1="8" y1="6" x2="21" y2="6"></line><line data-v-15eba8c6="" x1="8" y1="12" x2="21" y2="12"></line><line data-v-15eba8c6="" x1="8" y1="18" x2="21" y2="18"></line><line data-v-15eba8c6="" x1="3" y1="6" x2="3.01" y2="6"></line><line data-v-15eba8c6="" x1="3" y1="12" x2="3.01" y2="12"></line><line data-v-15eba8c6="" x1="3" y1="18" x2="3.01" y2="18"></line></svg></span>
+                    </span>
+                </div>
+              </div>
+              <div class="products">
+                <input onkeyup="searchProduct(this.value)" class="search" type="search" name="" id="search" placeholder="search">
+
+                <div class="displayProd" id="display">
+               
+                    
+                      </div>
+                  
+                </div>
+            </div>
+       </div>
     </div>
+
+     
+      
+       
+     </div>
+    
+    <script src="js/main.js"></script>
     <script src="js/all.min.js"></script>
 </body>
 </html>
